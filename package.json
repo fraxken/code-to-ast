@@ -1,0 +1,36 @@
+{
+  "name": "code-to-ast",
+  "version": "1.0.0",
+  "description": "JavaScript code to ESTree AST representation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraxken/code-to-ast.git"
+  },
+  "keywords": [],
+  "author": "GENTILHOMME Thomas <gentilhomme.thomas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fraxken/code-to-ast/issues"
+  },
+  "bin": {
+    "astgen": "./bin/index.js"
+  },
+  "homepage": "https://github.com/fraxken/code-to-ast#readme",
+  "dependencies": {
+    "estree-walker": "^1.0.0",
+    "kleur": "^3.0.3",
+    "make-promises-safe": "^5.1.0",
+    "meriyah": "^1.9.3",
+    "prettyjson": "^1.2.1",
+    "qoa": "^0.2.0",
+    "sade": "^1.6.1"
+  },
+  "devDependencies": {
+    "@slimio/eslint-config": "^3.0.3",
+    "@types/node": "^12.12.14"
+  }
+}
